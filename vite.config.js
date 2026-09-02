@@ -3,5 +3,7 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/My-React_Portofolio/",
+  base: "/",
+  // optional: set a default dev server host (or remove this line)
+  server: { host: true },
 });
