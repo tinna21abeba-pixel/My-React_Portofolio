@@ -49,19 +49,23 @@ export default function Footer({ onSubmit }) {
 <div className="footer-col follow-col">
 <span className="badge badge-purple">FOLLOW ME</span>
 <div className="social-links">
-<a href="https://github.com/tinna21abeba-pixel" target="_blank" className="social-btn" title="GitHub"><i className="fa-brands fa-github"></i></a>
-<a href="https://www.linkedin.com/in/tehesh-tslalom-3203b935a/?isSelfProfile=true" target="_blank" className="social-btn" title="LinkedIn"><i className="fa-brands fa-linkedin-in"></i></a>
-<a href="https://twitter.com" target="_blank" className="social-btn" title="Twitter"><i className="fa-brands fa-x-twitter"></i></a>
-<a href="https://instagram.com" target="_blank" className="social-btn" title="Instagram"><i className="fa-brands fa-instagram"></i></a>
+<a href="https://github.com/tinna21abeba-pixel" target="_blank" rel="noopener noreferrer" className="social-btn" title="GitHub"><i className="fa-brands fa-github"></i></a>
+<a href="https://www.linkedin.com/in/tehesh-tslalom-3203b935a/?isSelfProfile=true" target="_blank" rel="noopener noreferrer" className="social-btn" title="LinkedIn"><i className="fa-brands fa-linkedin-in"></i></a>
+<a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="social-btn" title="Twitter"><i className="fa-brands fa-x-twitter"></i></a>
+<a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="social-btn" title="Instagram"><i className="fa-brands fa-instagram"></i></a>
 </div>
 <div className="contact-details">
 <div className="contact-item">
 <i className="fa-regular fa-envelope"></i>
-<a href="mailto:teheshtslalom@gmail.com">tinna21abeba@gmail.com</a>
+<a href="mailto:tslalomtehesh@gmail.com">tslalomtehesh@gmail.com</a>
 </div>
 <div className="contact-item">
 <i className="fa-solid fa-phone"></i>
-<a href="tel:+251998438170">+251 (998) 438-170</a>
+<a href="tel:+251998438171">+251 998 438 171</a>
+</div>
+<div className="contact-item">
+<i className="fa-solid fa-location-dot"></i>
+<span>Addis Ababa, Ethiopia</span>
 </div>
 </div>
 </div>

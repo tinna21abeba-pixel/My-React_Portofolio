@@ -11,7 +11,7 @@
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     margin-bottom: 40px;
 }
@@ -54,7 +54,6 @@
     border: 1px solid rgba(255, 255, 255, 0.02);
 }
 
-
 .preview-mockup {
     width: 85%;
     height: 75%;
@@ -64,7 +63,6 @@
     padding: 12px;
     gap: 12px;
 }
-
 
 .preview-ecommerce { 
     background: linear-gradient(135deg, rgba(30,27,75,0.6), rgba(88,28,135,0.3)); 
@@ -88,52 +86,150 @@
     opacity: 0.8;
 }
 
+.preview-budget { 
+    background: linear-gradient(135deg, rgba(6,78,59,0.7), rgba(15,23,42,0.7)); 
+}
+.preview-budget .mock-budget {
+    width: 85%;
+    height: 75%;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    gap: 10px;
+}
+.preview-budget .mock-budget-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.preview-budget .mock-budget-badge {
+    height: 12px;
+    width: 70px;
+    background: #10b981;
+    border-radius: 4px;
+    opacity: 0.85;
+}
+.preview-budget .mock-budget-line {
+    height: 8px;
+    width: 45px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+}
+.preview-budget .mock-chart-line {
+    flex: 1;
+    border-bottom: 2px solid #10b981;
+    border-left: 1px solid rgba(255,255,255,0.1);
+    display: flex;
+    align-items: flex-end;
+    gap: 12px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+}
+.preview-budget .mock-bar {
+    width: 18px;
+    background: linear-gradient(to top, #10b981, #06b6d4);
+    border-radius: 3px;
+}
 
-.preview-taskapp .light-mockup { 
-    background: #e2e8f0; 
-    flex-direction: column; 
+.preview-countries {
+    background: linear-gradient(135deg, rgba(15,23,42,0.8), rgba(30,58,138,0.5));
 }
-.preview-taskapp .mock-grid { 
-    display: grid; 
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 8px; 
-    padding-top: 15px;
+.preview-countries .mock-country {
+    width: 85%;
+    height: 75%;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    gap: 10px;
 }
-.preview-taskapp .mock-grid div { 
-    height: 40px; 
-    background: #ffffff; 
-    border-radius: 4px; 
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+.preview-countries .mock-search-bar {
+    height: 14px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 6px;
+    width: 65%;
+}
+.preview-countries .mock-country-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    flex: 1;
+}
+.preview-countries .mock-country-card {
+    background: rgba(255, 255, 255, 0.07);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+    gap: 4px;
+}
+.preview-countries .mock-flag {
+    height: 50%;
+    background: linear-gradient(135deg, #3b82f6, #6366f1);
+    border-radius: 2px;
+}
+.preview-countries .mock-text {
+    height: 4px;
+    width: 75%;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 2px;
 }
 
-
-.preview-crypto .dark-mockup { 
-    background: #0f172a; 
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center; 
+.preview-restaurant {
+    background: linear-gradient(135deg, rgba(120,53,15,0.6), rgba(67,20,7,0.5));
 }
-.preview-crypto .mock-chart-line { 
-    width: 80%; 
-    height: 40px; 
-    border-bottom: 2px solid #10b981; 
-    border-left: 1px solid rgba(255,255,255,0.1); 
-    position: relative; 
-    margin-bottom: 15px;
+.preview-restaurant .mock-restaurant {
+    width: 85%;
+    height: 75%;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    gap: 10px;
 }
-.preview-crypto .mock-circle-chart { 
-    width: 40px; 
-    height: 40px; 
-    border-radius: 50%; 
-    border: 4px solid #3b82f6; 
-    border-right-color: transparent; 
-    transform: rotate(45deg); 
+.preview-restaurant .mock-hero-banner {
+    height: 35%;
+    background: linear-gradient(135deg, #f59e0b, #ef4444);
+    border-radius: 4px;
+    opacity: 0.85;
+}
+.preview-restaurant .mock-food-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    flex: 1;
+}
+.preview-restaurant .mock-food-item {
+    background: rgba(255, 255, 255, 0.07);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 4px;
+}
+.preview-restaurant .mock-food-img {
+    height: 60%;
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 2px;
 }
 
 .project-content {
     display: flex;
     flex-direction: column;
     flex: 1;
+}
+
+.project-tech-tag {
+    font-size: 12px;
+    font-weight: 600;
+    color: #c000ff;
+    letter-spacing: 0.5px;
+    margin-bottom: 6px;
+    text-transform: uppercase;
 }
 
 .project-title {
@@ -198,9 +294,6 @@
     .projects-section {
         padding: 60px 20px;
     }
-}
-
-@media(max-width: 576px) {
     .projects-grid {
         grid-template-columns: 1fr;
     }

@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="hero-container">
         <div className="hero-content">
           <div className="role">
-            <span className="badge badge-purple" id="text-role">FULL STACK ENGINEER</span>
+            <span className="badge badge-purple" id="text-role">FULL-STACK SOFTWARE DEVELOPER</span>
           </div>
           <h1 className="hero-title">
             Hi, I'm <span className="highlight-purple">Tehesh</span><br />
@@ -21,7 +21,13 @@ export default function Hero() {
             <a href="#projects" className="btn btn-primary">
               View My Work <i className="fa-solid fa-arrow-up-right-from-square"></i>
             </a>
-            <a href={`${import.meta.env.BASE_URL}documents/Tehesh-Tslalom-CV.pdf`} className="btn btn-secondary" download="">
+            <a
+              href={`${import.meta.env.BASE_URL}documents/Tehesh_Tslalom_Grmay_CV.pdf`}
+              className="btn btn-secondary"
+              download="Tehesh_Tslalom_Grmay_CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Download CV <i className="fa-solid fa-download"></i>
             </a>
           </div>
@@ -31,12 +37,11 @@ export default function Hero() {
               <div className="tech-item html" title="HTML5"><i className="fa-brands fa-html5" style={{ color: "#E34F26" }}></i></div>
               <div className="tech-item" title="CSS3"><i className="fa-brands fa-css3-alt" style={{ color: "#1572B6" }}></i></div>
               <div className="tech-item" title="JavaScript"><i className="fa-brands fa-js" style={{ color: "#F7DF1E" }}></i></div>
-              <div className="tech-item" title="TypeScript"><i className="fa-solid fa-code" style={{ color: "#3178C6" }}></i></div>
-              <div className="tech-item" title="React"><i className="fa-brands fa-react" style={{ color: "#61DAFB" }}></i>
-              </div>
+              <div className="tech-item" title="React"><i className="fa-brands fa-react" style={{ color: "#61DAFB" }}></i></div>
+              <div className="tech-item" title="Next.js"><i className="fa-solid fa-cube" style={{ color: "#ffffff" }}></i></div>
+              <div className="tech-item" title="Tailwind CSS"><i className="fa-solid fa-wind" style={{ color: "#06B6D4" }}></i></div>
               <div className="tech-item" title="Node.js"><i className="fa-brands fa-node-js" style={{ color: "#339933" }}></i></div>
-              <div className="tech-item" title="Git"><i className="fa-brands fa-git-alt" style={{ color: "#F05032" }}></i>
-              </div>
+              <div className="tech-item" title="Git"><i className="fa-brands fa-git-alt" style={{ color: "#F05032" }}></i></div>
             </div>
           </div>
         </div>
@@ -52,8 +57,8 @@ export default function Hero() {
             </div>
             <pre className="code-body"><code><span className="keyword">const</span> <span className="var-name">developer</span> = &#123;
               <span className="property">name</span>: <span className="string">"Tehesh"</span>,
-              <span className="property">skills</span>: [<span className="string">"HTML"</span>, <span className="string">"CSS"</span>,
-              <span className="string">"JavaScript"</span>, <span className="string">"React"</span>],
+              <span className="property">skills</span>: [<span className="string">"JavaScript"</span>, <span className="string">"React"</span>,
+              <span className="string">"Next.js"</span>, <span className="string">"Tailwind"</span>],
               <span className="property">passion</span>: <span className="string">"Building practical web solutions"</span>
               &#125;;</code></pre>
           </div>

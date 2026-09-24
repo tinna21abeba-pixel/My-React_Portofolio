@@ -102,6 +102,10 @@
     color: #ef4444;
 }
 
+.text-purple {
+    color: #a855f7;
+}
+
 
 @media(max-width: 992px) {
     .skills-grid {

@@ -73,15 +73,24 @@ export default function Skills() {
 </div>
 </div>
 
-<div className="skill-item">
-<div className="skill-info">
-<span className="skill-name"><i className="fa-brands fa-git-alt text-red"></i> Git</span>
-<span className="skill-percentage">80%</span>
-</div>
-<div className="progress-bar-bg">
-<div className="progress-bar-fill" style={{width: "80%"}}></div>
-</div>
-</div>
+        <div className="skill-item">
+          <div className="skill-info">
+            <span className="skill-name"><i className="fa-brands fa-git-alt text-red"></i> Git & GitHub</span>
+            <span className="skill-percentage">80%</span>
+          </div>
+          <div className="progress-bar-bg">
+            <div className="progress-bar-fill" style={{width: "80%"}}></div>
+          </div>
+        </div>
+        <div className="skill-item">
+          <div className="skill-info">
+            <span className="skill-name"><i className="fa-solid fa-network-wired text-purple"></i> REST APIs</span>
+            <span className="skill-percentage">85%</span>
+          </div>
+          <div className="progress-bar-bg">
+            <div className="progress-bar-fill" style={{width: "85%"}}></div>
+          </div>
+        </div>
 </div>
 </div>
 </section>
